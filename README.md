@@ -1,6 +1,8 @@
 # unsplash
 
-> **not yet released**
+> Beautiful photo javaScript generator https://unsplash.it/
+
+[![Build Status](https://api.travis-ci.org/nimojs/unsplash.svg)](https://travis-ci.org/nimojs/unsplash) [![NPM version](https://img.shields.io/npm/v/unsplash.svg?style=flat)](https://npmjs.org/package/unsplash) [![NPM downloads](http://img.shields.io/npm/dm/unsplash.svg?style=flat)](https://npmjs.org/package/unsplash)
 
 https://unsplash.it/ JavaScript generator
 
@@ -34,7 +36,9 @@ uh(200,300)
 ![https://unsplash.it/200/300](https://unsplash.it/200/300)
 
 ```js
+
 uh(200,300,'random')
+uh(200,300,'r')
 // https://unsplash.it/200/300/?random
 ```
 
@@ -48,11 +52,20 @@ uh('g', 200,300)
 ![https://unsplash.it/g/200/300](https://unsplash.it/g/200/300)
 
 ```js
-uh(200,300,1083)
+uh(200,300,'image=1083')
 // https://unsplash.it/200/300?image=1083
 ```
 
 ![https://unsplash.it/200/300?image=1083](https://unsplash.it/200/300?image=1083)
+
+
+```js
+uh(200,300,'blur')
+// https://unsplash.it/200/300?blur
+```
+
+![https://unsplash.it/200/300?image=1083](https://unsplash.it/200/300?blur)
+
 
 ```js
 uh(200,300,'gravity=east')
