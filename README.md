@@ -11,7 +11,7 @@ https://unsplash.it/ JavaScript generator
 ### npm
 
 ```shell
-npm i install unsplash
+npm i unsplash --save
 // var uh = require('unsplash')
 ```
 ### Script tag
