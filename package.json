@@ -1,6 +1,6 @@
 {
   "name": "unsplash",
-  "version": "0.1.0",
+  "version": "4.0.0",
   "description": "Beautiful photo javaScript generator  https://unsplash.it/",
   "homepage": "https://github.com/nimojs/unsplash",
   "main": "uh.js",
