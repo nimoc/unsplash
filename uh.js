@@ -1,7 +1,6 @@
 'use strict'
-var domain = "https://unsplash.it"
 var uh = function (g, width, height, param) {
-    var path = ['https://unsplash.it']
+    var path = ['https://picsum.photos']
     var i
     for(i=0; i<arguments.length; i++) {
         var item = arguments[i]
